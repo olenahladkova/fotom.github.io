@@ -240,7 +240,7 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.1875rem;
   background-color: white;
-  width: 100%;
+  width: 90%;
 }
 
 .feature img {
@@ -318,8 +318,11 @@ header .mobile {
 
 #filters-section .images-container {
   display: flex;
-  max-width: 100%;
   padding: 0 1%;
+}
+
+.images-container img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -358,11 +361,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -371,7 +374,7 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
@@ -380,12 +383,12 @@ header .mobile {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
@@ -396,7 +399,7 @@ header .mobile {
 
 footer {
   background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
+  padding: 1.625rem 2rem;
 }
 
 footer .content {
